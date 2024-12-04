@@ -6,7 +6,8 @@
         "vscode": {
             "extensions": [
                 "esbenp.prettier-vscode",
-                "ms-toolsai.jupyter"
+                "ms-toolsai.jupyter",
+                "julialang.language-julia"
             ]
         }
     }
