@@ -1,10 +1,5 @@
 version: '3.8'
 services:
-  devcontainer:
-    image: mcr.microsoft.com/devcontainers/base:alpine
-    volumes:
-      - ..:/workspaces/
-    command: sleep infinity
   jupyterlab:
     image: glcr.b-data.ch/jupyterlab/cuda/julia/base
     stdin_open: true
@@ -12,7 +7,7 @@ services:
     user: root
     restart: unless-stopped
     volumes: 
-    - ../src:/home/jovyan/src
+    - ../src:/home/jovyan/projects
     ports: 
       - 8888:8888
     environment:

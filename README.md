@@ -27,7 +27,7 @@ to another value.
 The src folder is mounted to the JupyterLab parent directory. This can be changed in docker-compose.yml
 
 `volumes: 
-    - ../src:/home/jovyan/src`
+    - ../src:/home/jovyan/projects`
 
 ## Dependencies
 

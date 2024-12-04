@@ -1,5 +1,13 @@
 {
     "dockerComposeFile": "docker-compose.yml",
-    "service": "devcontainer",
-    "workspaceFolder": "/workspaces/"
+    "service": "jupyterlab",
+    "workspaceFolder": "/home/jovyan/projects",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
 }
